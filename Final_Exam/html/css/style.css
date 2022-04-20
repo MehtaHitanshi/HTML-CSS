@@ -1,0 +1,1088 @@
+/* icons */
+@import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+
+/* fonts */
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-UltLt.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-UltLt.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-XBlkCn.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-XBlkCn.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-UltLtEx.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-UltLtEx.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-Roman.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-HvCn.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-HvCn.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-Hv.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-Hv.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-ThEx.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-ThEx.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-Md.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('../assets/fonts/HelveticaNeueLTStd-Th.woff2') format('woff2'),
+        url('../assets/fonts/HelveticaNeueLTStd-Th.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* icons */
+@import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue LT Std';
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    width: 100%;
+    display: table;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 58px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.logo-sm {
+    display: none;
+}
+
+.btns {
+    display: none;
+}
+
+input[name='menu'] {
+    display: none !important;
+}
+
+label.menu {
+    display: none;
+}
+
+.testimonials .img-sm {
+    display: none;
+}
+
+
+/* Header */
+.top, .banner {
+    position: relative;
+}
+
+.b {
+    position: absolute;
+    padding: 280px 2px;
+    background-color: #b2978b;
+    left: 0;
+    border: 3px solid #b2978b;
+}
+
+.b-round {
+    border: 8px solid #b2978b;
+    border-radius: 50px;
+    position: absolute;
+    padding: 47px 39px;
+    bottom: 0;
+    left: 0;
+}
+
+.d {
+    position: absolute;
+    right: 0;
+    padding: 283px 8px;
+    background-color: #b2978b;
+}
+
+.d-round {
+    border: 15px solid #b2978b;
+    border-radius: 50px;
+    position: absolute;
+    padding: 34px;
+    bottom: 0;
+    right: 0;
+}
+
+
+.logo {
+    padding: 16px 4px;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    color: black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 20px 15px 34px 15px;
+    border: 1px solid transparent;
+    margin-left: 13px;
+    font-weight: 500;
+}
+
+/* .nav li i{
+    font-size: 11px;
+    background-color: #cfcfcf;
+    border-radius: 50px;
+    padding: 5px;
+} */
+/* .nav li:hover{
+    background-color: #b8a79f;
+    color: white;
+    padding: 20px 15px 34px 15px;
+    border: 1px solid #b8a79f;
+    margin-left: 13px;
+    font-size: 12px;
+    letter-spacing: 1px;
+} */
+
+/* Banner */
+.banner {
+    background-image: url('../assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.source-img {
+    padding-top: 327px;
+    position: relative;
+}
+
+.banner-bottom {
+    padding-top: 58px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.banner-bottom h2 {
+    padding-left: 55px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+body>section>div>div>div>div>h2:nth-child(2) {
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+body>section>div>div>div>div>h2:nth-child(3) {
+    padding-top: 5px;
+}
+
+.line {
+    width: 66px;
+    border: 1px solid white;
+    margin: 17px 0 0 55px;
+}
+
+.social {
+    padding: 20px 0 40px 43px;
+}
+
+.social i {
+    padding-left: 13px;
+}
+
+.time {
+    background: #777777;
+    padding: 0.5px 570px;
+    float: left;
+    position: absolute;
+    bottom: 32%;
+    left: 30%;
+}
+
+.timeline {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+}
+
+.one {
+    background-color: #688391;
+    border-radius: 81%;
+    padding: 5px 8px 4px 8px;
+    font-size: 8px;
+    color: white;
+}
+
+.two, .three {
+    background-color: #fff;
+    border-radius: 81%;
+    padding: 5px 8px 4px 8px;
+    font-size: 8px;
+    color: #000;
+}
+
+.wline {
+    border: 1px solid white;
+    padding: 0 55px 0 0px;
+    margin-top: 8px;
+}
+
+/* Welcome */
+.uniforms {
+    padding: 53px 0 0 0;
+}
+
+.uniforms h2 {
+    font-size: 58px;
+    line-height: 58px;
+    float: left;
+    color: #917171;
+    letter-spacing: 3px;
+    padding-left: 8px;
+}
+
+.uniforms h1 {
+    float: left;
+    letter-spacing: 3px;
+    padding: 0 0 0 98px;
+}
+
+.content {
+    padding-top: 21px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.button {
+    text-align: center;
+    padding-top: 34px;
+}
+
+.button a {
+    color: #b2978b;
+    border: 2px solid #bbada5;
+    padding: 7px 17px 5px 16px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button a i {
+    font-size: 23px;
+    padding: 3px 0 0 23px;
+}
+
+/* Testimonials */
+.tm .line {
+    border: 1px solid #627d6f;
+    margin: 7px 0 0 45px;
+}
+
+.tm h3 {
+    color: #627d6f;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    float: left;
+    padding: 0 0 0 19px;
+}
+
+.two-col {
+    padding-top: 127px;
+}
+
+.tm {
+    background-color: #fefefe;
+    padding-bottom: 60px;
+    max-width: 260px;
+    width: 100%;
+}
+
+.para {
+    max-width: 607px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 47px 0 51px 0;
+}
+
+.img {
+    padding-left: 99px;
+}
+
+.acknowledge {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    padding: 15px 0 0 100px;
+}
+
+.vline {
+    position: absolute;
+    border: 1px solid #cbcbcb;
+    padding: 85px 0;
+    left: 11%;
+}
+
+.smallline {
+    position: absolute;
+    border: 3px solid #b2978b;
+    top: 35%;
+    padding: 4px 0;
+    left: 10.7%;
+}
+
+.para .line {
+    border: 1px solid #627d6f;
+    padding: 0 191px;
+    margin: 22px auto;
+}
+
+.sign {
+    position: absolute;
+    right: 4%;
+    top: 78%;
+}
+
+.sign h3 {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.sign h4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.social-m {
+    padding: 67px 0 0 9px;
+}
+
+.social-m a {
+    color: #627d6f;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.testimonials {
+    position: relative;
+}
+
+.bg-img {
+    z-index: -1;
+    position: absolute;
+    top: 16%;
+    left: 40%;
+}
+
+/* buttons */
+.prev-btn, .next-btn {
+    position: absolute;
+    border: 1px solid white;
+}
+
+.prev-btn p, .next-btn p {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.prev-btn a, .next-btn a {
+    font-size: 14px;
+    color: white;
+    padding: 5px 14px 4px 29px;
+}
+
+.next-btn a {
+    padding: 5px 14px 4px 17px;
+}
+
+.prev-btn i {
+    padding-right: 6px;
+    font-size: 24px;
+}
+
+.next-btn i {
+    padding-left: 6px;
+    font-size: 24px;
+}
+
+.prev-btn {
+    left: 23%;
+    top: 75%;
+}
+
+.next-btn {
+    top: 75%;
+    left: 44%;
+}
+
+/* footer */
+.bottom {
+    /* background-image: url('../assets/images/bottom.png'); */
+    margin-top: 207px;
+    background-repeat: no-repeat;
+
+}
+
+.foo-logo {
+    background-image: url('../assets/images/bottom.png');
+    /* background-color: #b29c93; */
+    background-position: right;
+    padding: 135px 122px 76px 77px;
+}
+
+.contact {
+    padding-top: 52px;
+}
+
+.contact .line {
+    border: 1px solid #627d6f;
+    margin: 7px 0 0 0;
+}
+
+.contact h3 {
+    color: #627d6f;
+    float: left;
+    padding-left: 12px;
+}
+
+.location p, .ph-no p, .mail p {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 15px;
+}
+
+.location {
+    padding: 49px 0 0 65px;
+}
+
+.icon i {
+    font-size: 18px;
+    padding-top: 5px;
+    color: #627d6f;
+}
+
+.phone {
+    padding: 27px 0 0 64px
+}
+
+.picon {
+    font-size: 18px;
+    color: #627d6f;
+}
+
+.email {
+    padding: 22px 0 0 58px;
+}
+
+.eicon i {
+    font-size: 12px;
+    padding: 4px 0 0 5px;
+    color: #627d6f;
+}
+
+/* sign up */
+.sign-up h2 {
+    font-size: 58px;
+    line-height: 58px;
+    letter-spacing: 1px;
+}
+
+.sign-up h3 {
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 8px 0 22px;
+}
+
+.sign-up {
+    padding: 45px 0 0 122px;
+}
+
+.gmail {
+    background-color: #b39d94;
+    padding: 24px 48px 24px 21px;
+    position: relative;
+
+}
+
+.gmail input[type='email'] {
+    padding: 12px 103px 12px 16px;
+}
+
+.gmail i {
+    position: absolute;
+    right: 19%;
+    top: 36%;
+    font-size: 25px;
+}
+
+.pink-area {
+    background-color: #b39d94;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width:1600px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .nav li a {
+        padding-left: 5px;
+    }
+
+    h1, .uniforms h2 {
+        font-size: 48px;
+    }
+
+    .uniforms h1 {
+        padding-left: 24px;
+    }
+
+    .bg-img {
+        right: 0;
+        left: 38%;
+    }
+
+    .acknowledge {
+        padding-left: 68px;
+    }
+
+    .para {
+        max-width: 490px;
+    }
+
+    .para .line {
+        padding: 0 110px;
+    }
+
+    .prev-btn {
+        left: 33%;
+    }
+
+    .next-btn {
+        left: 57%;
+    }
+
+    .time {
+        display: none;
+    }
+
+    .sign-up {
+        padding-left: 12px;
+    }
+
+    .foo-logo {
+        padding: 135px 27px 76px 27px;
+    }
+
+    .location, .phone, .email {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .nav li a {
+        padding-right: 4px;
+    }
+
+    h1, .uniforms h2 {
+        font-size: 42px;
+    }
+
+    .prev-btn a, .next-btn a {
+        padding: 5px 10px 4px;
+    }
+
+    .img {
+        padding-left: 54px;
+    }
+
+    .para {
+        padding: 2px 0 26px;
+        max-width: 467px;
+    }
+
+    .sign h4, .acknowledge {
+        font-size: 12px;
+    }
+
+    .sign h3 {
+        font-size: 16px;
+    }
+
+    .foo-logo {
+        padding: 135px 10px 76px 10px;
+    }
+
+    .contact .line {
+        width: 54px;
+    }
+
+    .location, .phone, .email {
+        padding-left: 8px;
+    }
+
+    .sign-up {
+        padding-left: 6px;
+    }
+
+    .gmail {
+        padding: 24px 11px 24px 11px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 668px;
+    }
+
+    .nav li a {
+        padding-left: 2px;
+        margin-left: 1px;
+    }
+
+    .banner {
+        background-position: center;
+    }
+
+    h1, .uniforms h2 {
+        font-size: 38px;
+        letter-spacing: 0;
+    }
+
+    .uniforms h1 {
+        padding: 0;
+        letter-spacing: 0;
+    }
+
+    .uniforms h2 {
+        padding-left: 16px;
+    }
+
+    .tm .line {
+        width: 35px;
+    }
+
+    .tm {
+        max-width: 230px;
+        padding-bottom: 22px;
+    }
+
+    .para {
+        max-width: 435px;
+    }
+
+    .bg-img {
+        top: 34%;
+    }
+
+    .sign h3 {
+        font-size: 16px;
+    }
+
+    .prev-btn {
+        left: 43%;
+    }
+
+    .next-btn {
+        left: 70%;
+    }
+
+    .prev-btn a, .next-btn a {
+        padding: 5px;
+    }
+
+    .foo-logo {
+        display: none;
+    }
+
+    .logo-sm {
+        display: block;
+        background-color: #b39d94;
+        padding-bottom: 12px;
+    }
+
+    .sign-up {
+        padding-left: 60px;
+    }
+
+    .contact, .sign-up {
+        padding-bottom: 50px;
+    }
+
+    .contact .line {
+        display: none;
+    }
+
+    .timeline {
+        right: 10%;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .nav {
+        display: none;
+        float: none;
+        width: 100%;
+    }
+
+    .nav {
+        display: block;
+        position: absolute;
+        transform: translate(-100%, 0);
+        top: 0;
+        left: 0;
+        height: 100%;
+        transition: all ease-in-out 0.4s;
+        padding: 15px 0;
+        background-color: #b39d94;
+        overflow: visible;
+        width: 150px;
+        z-index: 1;
+    }
+
+    label.menu {
+        float: right;
+        text-align: center;
+        display: block;
+        padding: 20px;
+    }
+
+    .nav li {
+        text-align: center;
+        float: none;
+        padding: 15px 0;
+    }
+
+    .nav li a {
+        color: #627d6f;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    input[name='menu']:checked~.container .nav {
+        transform: translate(0, 0);
+    }
+
+    .timeline {
+        right: 19%;
+    }
+
+    .banner-bottom {
+        padding-left: 25px;
+    }
+
+    .wline {
+        padding: 0 35px 0 0;
+    }
+
+    .uniforms h2, .uniforms h1 {
+        float: none;
+        text-align: center;
+    }
+
+    .button a {
+        font-size: 12px;
+        padding: 0 5px 5px;
+    }
+
+    .button a i {
+        font-size: 14px;
+        padding-top: 9px;
+    }
+
+    .tm h3 {
+        font-size: 14px;
+        padding-left: 8px;
+    }
+
+    .img img {
+        max-width: 25px;
+    }
+
+    .para .line {
+        padding: 0 75px;
+    }
+
+    .bg-img {
+        display: none;
+    }
+
+    /* .testimonials {
+        background-image: url('../assets/images/image_2.png');
+    } */
+
+    .testimonials {
+        padding-top: 60px;
+    }
+
+    .testimonials .img-sm {
+        display: block;
+        position: relative;
+    }
+
+
+    .two-col {
+        padding-top: 80px;
+        padding-bottom: 30px;
+        /* margin-top: 56px; */
+    }
+
+    .tm {
+        max-width: 435px;
+        padding-bottom: 12px;
+        padding-top: 20px;
+    }
+
+    .acknowledge {
+        padding-left: 60px;
+    }
+
+    .para .line {
+        padding: 0 140px;
+    }
+
+    .sign {
+        right: 0%;
+        top: 73%
+    }
+
+    .sign h3 {
+        font-size: 12px;
+        padding-top: 5px;
+        line-height: 1.2;
+    }
+
+    .sign h4 {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+
+    .btns {
+        /* padding-top: 30px; */
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: 23%;
+    }
+
+    .prev-btn-sm, .next-btn-sm {
+        border: 1px solid #fff;
+        display: inline-block;
+    }
+
+    .prev-btn-sm p, .next-btn-sm p {
+        display: inline-block;
+        font-weight: 400;
+    }
+
+    .prev-btn-sm a, .next-btn-sm a {
+        font-size: 14px;
+        color: white;
+        padding: 5px 14px 4px 14px;
+    }
+
+    .next-btn-sm a {
+        padding: 5px 14px 4px 17px;
+    }
+
+    .prev-btn-sm i {
+        padding-right: 6px;
+        font-size: 24px;
+    }
+
+    .next-btn-sm i {
+        padding-left: 6px;
+        font-size: 24px;
+    }
+
+    .bottom {
+        margin-top: 50px;
+    }
+    .contact{
+        padding: 0 37px 50px 0;
+    }
+    .sign-up h2 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .sign-up {
+        padding: 0 0 50px;
+    }
+    .sign h3{
+        padding-top: 10px;
+    }
+    .gmail i {
+        right: 5%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width:479px) {
+    .banner-bottom {
+        float: none;
+    }
+
+    .timeline {
+        bottom: 25%;
+        right: 0;
+    }
+
+    .d {
+        padding: 365px 8px;
+    }
+
+    .b {
+        padding: 365px 2px;
+    }
+
+    h1, .uniforms h2 {
+        font-size: 28px;
+        float: none;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .sign {
+        right: 4%;
+        top: 77%;
+    }
+
+    .para .line {
+        padding: 0 80px;
+    }
+    .btns{
+        top: 31%;
+    }
+    .prev-btn-sm i, .next-btn-sm i {
+        font-size: 12px;
+    }
+
+    .prev-btn-sm a, .next-btn-sm a {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,858 @@
+/* fonts and icons */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,600&display=swap');
+
+/* Global Declarations */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web";
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+    width: 100%;
+    display: table;
+    content: '';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 49px;
+}
+
+h2 {
+    font-size: 41px;
+    line-height: 30.4px;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 18px;
+}
+input[name=menu]{
+    display: none;
+}
+.menuTop{
+    display: none;
+}
+/* Top header */
+.top {
+    background-color: #864f9c;
+}
+
+.logo {
+    float: left;
+    padding-top: 56px;
+    padding-left: 42px;
+}
+
+.navigation {
+    padding-top: 45px;
+    float: right;
+}
+
+.navigation ul {
+    margin: 0px;
+    padding: 0px;
+}
+.navigation li a {
+    text-decoration: none;
+    color: #f7f3ea;
+    text-transform: uppercase;
+}
+
+.navigation li {
+    list-style-type: none;
+    text-align: right;
+    padding-top: 16px;
+    padding-left: 43px;
+    float: left;
+}
+
+/* top-section */
+.top-section {
+    background-color: #864f9c;
+    color: #f7f3ea;
+}
+
+.topSec h2 {
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.topSec {
+    padding: 170px 0px 50px 0px;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 145px;
+}
+
+.button a {
+    background-color: #eb7d4b;
+    display: inline-block;
+    border-radius: 4px;
+    border-bottom: 4px solid #c86a40;
+    padding: 18px 80px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/* Services we provide */
+.services {
+    background-color: #17c2a4;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 103px 0px 25px;
+}
+
+.hr-line {
+    text-align: center;
+    padding: 0 0 8px;
+}
+
+.para p {
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 12px 0 56px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+
+}
+
+/* 4 columns */
+.four-col {
+    color: #ffffff;
+    background-color: #17c2a4;
+    text-align: center;
+    padding-bottom: 105px;
+}
+
+.block h2 {
+    letter-spacing: 4px;
+    padding-top: 7px;
+}
+
+.col-block h4 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    width: 180px;
+}
+
+.col-block, .team-block {
+    width: 25%;
+    margin: 0 auto;
+    float: left;
+    padding: 15px;
+}
+
+.tools {
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 28px;
+}
+
+.tools p {
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 200px;
+    width: 100%;
+}
+
+/* Beautiful team */
+.team {
+    color: #3c4761;
+    text-align: center;
+    padding: 86px 0px 25px;
+}
+
+.bTeam h2 {
+    letter-spacing: 4px;
+}
+
+/* team-four column */
+
+.team-block h4 {
+    padding-bottom: 6px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+
+.tSec p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 205px;
+}
+
+.team-block a {
+    color: #48c1e9;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.social-media {
+    padding-top: 17px;
+}
+
+.social-media a {
+    padding: 4px;
+    margin: 0 auto;
+}
+
+.team-block {
+    padding-bottom: 90px;
+}
+
+.para1 {
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+
+/* skills */
+.skills {
+    color: #3c4761;
+}
+
+.got-skills {
+    padding-top: 90px;
+}
+
+.skill p {
+    padding-bottom: 70px;
+}
+
+.got-skills h3, .get-in-touch h3 {
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.per-block {
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    padding-bottom: 122px;
+}
+
+.per-block img {
+    padding-left: 45px;
+}
+
+/* footer-1 */
+.footer-1 {
+    background-color: #3c5499;
+    color: #ffffff;
+    padding-top: 111px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.footer-1 .para1 p {
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+
+.mail {
+    width: 50%;
+    padding-top: 43px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.name {
+    width: 50%;
+    padding-top: 43px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.send {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.mail {
+    float: right;
+    border-color: #273a71;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
+.send form {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.message {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.message textarea {
+    background-color: #273a71;
+    border-color: #273a71;
+    border-radius: 4px;
+    width: 100%;
+    padding: 20px 0 0 30px;
+    font-family: 'Titillium web';
+
+}
+
+.mail input[type="email"], .name input[type="text"] {
+    width: 100%;
+    background-color: #273a71;
+    border: 0;
+    border-radius: 4px;
+    padding: 15px 0 15px 30px;
+}
+
+.send ::placeholder {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.btn-sub {
+    text-align: center;
+    padding-top: 53px;
+    padding-bottom: 102px;
+}
+
+/* Submit Button */
+.btn-sub input[type="submit"] {
+    background-color: #30bae7;
+    display: inline-block;
+    border-radius: 4px;
+    border-bottom: 2px solid #299ec5;
+    padding: 27px 82px 25px 85px;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+/*footer-2*/
+.footer-2 {
+    background-color: #334b8e;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600px;
+    padding-bottom: 32px;
+}
+
+.contact-us ul {
+    list-style-type: none;
+}
+
+.contact-us li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-us li {
+    display: inline-block;
+}
+
+.contact-us li:not(:first-child) {
+    padding-left: 53px;
+}
+
+body>footer>section>div:nth-child(2)>div>div>ul>li:nth-child(2) a {
+    color: #30bae7;
+}
+
+/* /*
+1920, 1600, 1440, 1366, 1280, 1024, 992 ,768
+960, 640, 560, 480, 414, 375
+
+*/
+
+
+/* Responsive Media Queries 
+----------------------------*/
+@media (max-width:1180px) {
+    .container {
+        max-width: 992px;
+    }
+
+    h1, .topSec h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .button a {
+        padding: 18px 65px;
+    }
+
+    .btn-sub input[type="submit"] {
+        padding: 20px 70px;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 900px;
+    }
+
+    h1, .topSec h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .button a {
+        padding: 18px 55px;
+    }
+
+    .tSec p {
+        padding: 7px 3px 0;
+    }
+
+    .tools p {
+        padding: 0 3px;
+    }
+
+    .got-skills {
+        padding-top: 70px;
+    }
+
+    .team-block a {
+        font-size: 14px;
+    }
+
+    .footer-2 {
+        font-size: 22px;
+    }
+
+    .contact-us li, .contact-us li:not(:first-child) {
+        padding-left: 32px;
+    }
+
+    .btn-sub input[type="submit"] {
+        padding: 15px 50px;
+        font-size: 16px;
+    }
+
+    .mail {
+        padding-left: 20px;
+    }
+
+    .footer-1 .para1 p {
+        padding: 0 75px 4px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    h1, .topSec h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .topSec {
+        padding-top: 120px;
+    }
+
+    .tools p {
+        max-width: none;
+    }
+
+    .button {
+        padding-bottom: 125px;
+    }
+
+    .button a, .btn-sub input[type='submit'] {
+        padding: 12px 35px;
+        font-size: 12px;
+    }
+
+    .four-col {
+        padding-bottom: 70px;
+    }
+
+    .col-block, .team-block, .per-block {
+        width: 50%;
+    }
+
+    .col-block {
+        padding: 15px 5px;
+    }
+
+    .col-block h4 {
+        padding-top: 35px;
+    }
+
+    .per-block {
+        text-align: center;
+    }
+
+    .got-skills {
+        padding-top: 40px;
+    }
+
+    .footer-2 {
+        font-size: 18px;
+    }
+
+    .contact-us li, .contact-us li:not(:first-child) {
+        padding-left: 18px;
+    }
+
+    .footer-1 .para1 p {
+        padding: 0 42px 4px;
+    }
+
+    .name, .mail {
+        width: 100%;
+    }
+
+    .mail {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .logo {
+        padding-left: 30px;
+    }
+
+    .navigation {
+        float: none;
+        padding-top: 0;
+        display: none;
+    }
+    .navigation li{
+        float: none;
+        text-align: center;
+    }
+    label.menuTop{
+        float: right;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff !important;
+        display: block;
+        padding-top: 35px;
+    }
+    .navigation {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background-color: white;
+        opacity: 0.8;
+        top: 0;
+        height: 100%;
+        padding: 15px 0;
+        transform: translate(-100%, 0);
+        display: block;
+        transition: all ease 0.4s;
+    }
+    .navigation li a{
+        color: black;
+        font-weight: 700;
+    }
+    [name="menu"]:checked ~ .container .navigation {
+        transform: translate(0, 0);
+    }
+    .navigation li a:hover{
+        color: violet;
+    }
+    .topSec {
+        padding-top: 70px;
+    }
+
+    h1, .topSec h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    h3,
+    h4 {
+        font-size: 16px;
+    }
+
+    .button {
+        padding-bottom: 80px;
+    }
+
+    .button a, .btn-sub input[type='submit'] {
+        padding: 8px 25px;
+    }
+
+    .services {
+        padding-top: 70px;
+    }
+
+    .para p, .para1 p, .footer-1 .para1 p {
+        padding: 5px 0 50px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    .col-block, .team-block, .per-block {
+        width: 100%;
+    }
+
+    .four-col {
+        padding-bottom: 20px;
+    }
+
+    .tools {
+        padding-bottom: 10px;
+    }
+
+    .tools p, .tSec p {
+        line-height: 20px;
+        font-size: 14px;
+        max-width: 210px;
+    }
+
+    .tools img {
+        max-width: 120px;
+        height: auto;
+    }
+
+    .tSec img, .per-block img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .per-block img {
+        padding-left: 0;
+    }
+
+    .per-block {
+        padding-bottom: 60px;
+    }
+
+    .col-block h4, .team-block h4 {
+        padding-top: 20px;
+    }
+
+    .team {
+        padding-top: 70px;
+    }
+
+    .para1, .para1 p {
+        padding-bottom: 20px;
+    }
+
+    .team-block {
+        padding-bottom: 25px;
+    }
+
+    .team-block a {
+        font-size: 12px;
+    }
+
+    .social-media {
+        padding-top: 14px;
+    }
+
+    .social-media img {
+        max-width: 28px;
+        height: auto;
+    }
+
+    .got-skills {
+        padding-top: 30px;
+    }
+
+    .got-skills h3, .bTeam h2, .get-in-touch h3, .block h2 {
+        letter-spacing: 3px;
+    }
+
+    .footer-1 {
+        padding-top: 60px;
+    }
+
+    .name {
+        padding-top: 0;
+    }
+
+    .btn-sub {
+        padding: 50px 0;
+    }
+    .footer-2{
+        padding-bottom: 22px;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .contact-us li, .contact-us li:not(:first-child){
+        padding: 0 4px;
+    }
+}
+
+@media (max-width:479px){
+    h1, .topSec h2 {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    h3,
+    h4 {
+        font-size: 14px;
+    }
+    .logo{
+        padding-left: 18px;
+        padding-top: 40px;
+    }
+    .logo img{
+        max-width: 90px;
+        width: 100%;
+    }
+    .button {
+        padding-bottom: 50px;
+    }
+
+    .button a, .btn-sub input[type='submit'] {
+        padding: 5px 20px;
+    }
+    .services,.topSec {
+        padding-top: 50px;
+    }
+    .para p, .para1 p, .footer-1 .para1 p {
+        padding: 0px 0 35px;
+        font-size: 14px;
+    }
+    .tools img {
+        max-width: 100px;
+        height: auto;
+    }
+    .tSec img, .per-block img {
+        max-width: 130px;
+        height: auto;
+    }
+    .para p, .para1 p, .footer-1 .para1 p {
+        padding: 0px 0 40px;
+    }
+    .tools p, .tSec p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .social-media img {
+        max-width: 20px;
+        height: auto;
+    }
+    .got-skills h3, .bTeam h2, .get-in-touch h3, .block h2 {
+        letter-spacing: 1px;
+    }
+    .send ::placeholder {
+        font-size: 12px;
+    }
+    .footer-2{
+        padding-bottom: 10px;
+    }
+    .contact-us li, .contact-us li:not(:first-child){
+        padding: 0 6px;
+    }
+    .contact-us ul{
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
+.button a:hover{
+    background-color:#ec6f35;
+    color: black;
+    transform: scale(1.2);
+}

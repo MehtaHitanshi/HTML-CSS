@@ -1,0 +1,453 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/* global declarations */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    width: 100%;
+    display: table;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 34px;
+    line-height: 57px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400px;
+    margin: 0 auto;
+    color: #cfcfcf;
+
+}
+
+img {
+    vertical-align: middle;
+    height: auto;
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* Banner section */
+.banner {
+    background-image: url(../assets/images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-drones {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-drones h1 {
+    padding: 111px 3px 0 0;
+}
+
+.hero-drones h2 {
+    padding: 8px 3px 0 0;
+}
+
+.learn-more {
+    background-color: #0b53ac;
+    margin: 0 521px;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.learn-more a, .see-all a {
+    padding: 0 25px;
+}
+
+/* features */
+.features {
+    padding: 450px 0 31px;
+}
+
+/* automatic take-off */
+.automatic {
+    padding: 11px 0 15px 177px;
+}
+
+.take-off {
+    padding: 0 0 0 117px;
+}
+
+/* automatic-balance */
+.auto-bal {
+    padding: 11px 0 0 95px;
+}
+
+.automatic-b {
+    padding: 18px 0 0 17px;
+}
+
+.balance {
+    padding: 19px 0 0 1px;
+}
+
+/* 360 deg */
+.deg360 {
+    padding-left: 96px;
+}
+
+.radar {
+    padding: 7px 0 0 51px;
+}
+
+.degree {
+    padding-top: 7px;
+}
+
+/* Intelligent Navigations */
+.i-nav {
+    padding-left: 95px;
+}
+
+.intellegent {
+    padding: 11px 0 0 89px;
+}
+
+/* About Aritaweb  */
+.about {
+    background-image: url(../assets/images/aboutBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web {
+    padding-top: 142px;
+}
+
+.web h2 {
+    color: #fff;
+    padding-left: 86px;
+    float: left;
+}
+
+.web h3, .idrones h3, .capable h3 {
+    font-size: 34px;
+    line-height: 57px;
+    font-weight: 600;
+    color: #0b53ac;
+    float: left;
+    padding-left: 9px;
+}
+
+.p1 {
+    padding: 14px 430px 144px 88px;
+}
+
+/* Begining of the age of Intelligent Drones */
+.beginning {
+    background-color: black;
+    padding-bottom: 56px;
+}
+
+.idrones {
+    padding-top: 90px;
+}
+
+.idrones h2, .capable h2 {
+    color: #fff;
+    float: left;
+    padding-left: 241px;
+    text-align: center;
+}
+
+.beginning .p2 {
+    padding-bottom: 93px;
+}
+
+.p2 .autonomous {
+    padding: 19px 0 0 272px;
+}
+
+.p2 .latest {
+    padding: 0 0 0 219px
+}
+
+/* Artificial Intelligence  */
+.ai {
+    background-image: url(../assets/images/div1.png);
+    background-repeat: no-repeat;
+    margin-left: 18px;
+    padding: 0 34px 60px 0;
+}
+
+.ai h3 {
+    color: #fff;
+    padding: 51px 0 0 28px;
+}
+
+.pt15 {
+    padding-top: 6px
+}
+
+.ai p, .sensor p {
+    padding-left: 32px;
+}
+
+.bline {
+    background-color: #0b53ac;
+    border: 2px solid #0b53ac;
+    margin-top: 11px;
+    padding-left: 90px;
+}
+.hrline{
+    padding: 269px 0 0 0;
+}
+/* Natural Language Processing */
+.natural-lang {
+    background-image: url(../assets/images/div2.png);
+    background-repeat: no-repeat;
+    margin-right: 14px;
+    padding: 0 4px 48px 30px;
+}
+
+.natural-lang h3 {
+    color: #fff;
+    padding: 31px 107px 0 0;
+}
+
+.natural-lang h4 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600px;
+}
+
+.pt4 {
+    padding-top: 4px;
+}
+
+.natural-lang p {
+    padding-left: 4px;
+}
+
+.line{
+    padding-left: 100px;
+}
+.hrline1 {
+    padding: 263px 0 0 0;
+}
+
+/* drone-img */
+.drone-img {
+    background-image: url(../assets/images/droneBG.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: top;
+    position: relative;
+    margin-top: 204px;
+    padding: 33px 0 4px;
+}
+.dimg{
+    padding: 92px 0 80px 30px;
+}
+.bcircle{
+    border-radius: 238px;
+    border: 3px solid #0b53ac;
+    margin: 0px 363px 0 362px;
+    padding: 300px 0 170px 471px;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Computational Sensors */
+.sensor{
+    background-image: url(../assets/images/div1.png);
+    background-repeat: no-repeat;
+    margin-left: 18px;
+    padding: 0 34px 63px 0;
+}
+.sensor h3{
+    color: #fff;
+    padding: 51px 0 0 28px;
+}
+.bottom-line{
+    background-color: #0b53ac;
+    border: 2px solid #0b53ac;
+    margin-top: 183px;
+    padding: 0px 0px 0 125px;
+    position: absolute;
+    left: 650px;
+}
+.bottom-hrline{
+    background-color: #0b53ac;
+    border: 2px solid #0b53ac;
+    padding-top: 265px;
+    position: relative;
+    bottom: 84px;
+    left: 94px;
+}
+.line1{
+    padding-left: 100px;
+}
+.oper{
+    margin-right: 8px;
+    padding: 0px 24px 63px 30px;
+}
+.oper h3{
+    padding-top: 47px;
+    padding-bottom: 2px;
+}
+.bl2{
+    background-color: #0b53ac;
+    border: 2px solid #0b53ac;
+    margin-top: 183px;
+    padding: 0px 0px 0 136px;
+    position: absolute;
+    right: 646px;
+}
+.bhr2{
+    background-color: #0b53ac;
+    border: 2px solid #0b53ac;
+    padding-top: 265px;
+    position: relative;
+    bottom: 84px;
+    right: 104px;
+}
+
+/* A Drone Capable of Doing Much More */
+.much-more{
+    padding-bottom: 160px
+}
+.doing{
+    padding-top: 134px;
+}
+.capable h2{
+    color: #000;
+    padding-left: 267px;
+}
+.capable h3{
+    padding-left: 16px;
+}
+.much-more .p2 p{
+    color: #000;
+}
+.much-more .p2 .autonomous{
+    padding-top: 22px;
+}
+.see-all {
+    background-color: #0b53ac;
+    margin: 0 500px;
+    border-radius: 22px;
+    text-align: center;
+    margin-top: 34px;
+}
+.bottom-drone{
+    padding-top: 90px;
+    text-align: center;
+    margin-left: -118px;
+}
+.blue-section{
+    background-color: #0b53ab;
+    border: 1px solid #0b53ab;
+    padding: 94px 0;
+    margin-top: -283px;
+}
+
+
+
+/* Animations */
+.learn-more:hover,
+.see-all:hover{
+    background-color: rgb(31, 49, 82);
+}
+
+.take-off a:hover,
+.balance a:hover,
+.degree a:hover{
+    transform: scale(1.2);
+    color:aquamarine;
+}
+.take-off a,
+.balance a,
+.degree a{
+    transition: all 2s;
+}
+.automatic img:hover,
+.automatic-b img:hover,
+.deg360 img:hover,
+.intellegent img:hover{
+    transform: scale(0.2) rotate(190deg);
+}
+.automatic img,
+.automatic-b img,
+.deg360 img,
+.intellegent img{
+    transition: all 2s;
+}
+
+.dimg img:hover,
+.dimg img:focus{
+    transform: rotate(360deg);
+}
+.dimg img{
+    transition: all 2s;
+}
+
+.bottom-drone img:hover,
+.bottom-drone img:focus{
+    transform: scale(0.2) rotate(360deg);
+}
+.bottom-drone img{
+    transition: all 3s;
+}
+

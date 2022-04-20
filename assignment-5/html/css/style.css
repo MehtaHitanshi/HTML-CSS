@@ -1,0 +1,2265 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+/* icons */
+@import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 939px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    width: 100%;
+    display: table;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.input,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    display: block;
+    background-color: #222327;
+    color: #fff;
+    border: none;
+}
+
+p {
+    margin: 0 auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w66 {
+    width: 66.66%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+input[name='menu'] {
+    display: none !important;
+}
+
+label.menuNav {
+    display: none;
+}
+
+/* header */
+
+
+/* body>header>div  */
+
+.top {
+    background-color: #27292e;
+    width: 100%;
+}
+
+
+/* body>header>div>div>div:first-child */
+
+.logo {
+    display: inline-block;
+    padding: 42px 0 46px 2px;
+}
+
+
+/* navigation */
+
+
+/* body>header>div>div>div:nth-child(2) ul */
+
+.nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+
+/* body>header>div>div>div:nth-child(2) li  */
+
+.nav li {
+    float: left;
+}
+
+
+/* body>header>div>div>div:nth-child(2) li>a  */
+
+.nav a {
+    float: left;
+    padding: 48px 0 46px 39px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* welcome-section */
+
+
+/*  body>section:nth-child(2)>div */
+
+.welcome {
+    padding-top: 231px;
+    padding-bottom: 262px;
+    background-color: #4b3e34;
+    background-image: url(../assets/images/banner-Icons.png);
+    /* background-position: right; */
+    background-position-y: bottom;
+    background-position-x: 68%;
+    background-repeat: no-repeat;
+}
+
+
+/*body>section:nth-child(2)>div>div>div>h1  */
+
+.heading h1 {
+    padding-left: 3px;
+}
+
+.our-team h2,
+.price h2 {
+    padding-left: 2px;
+}
+
+.heading h2,
+.price h3,
+.our-team h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500px;
+}
+
+
+/* our-services */
+
+.services,
+.portfolio,
+.our-price,
+.about-us,
+.skills,
+.contact {
+    background-color: #27292e;
+}
+
+
+/* body>section:nth-child(3)>div>div>div>h3  */
+
+.services h3 {
+    padding-top: 53px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 3px;
+}
+
+.web-design-img {
+    padding-top: 16px;
+    padding-right: 6px;
+}
+
+.sec-1 {
+    max-width: 24.25%;
+    width: 100%;
+    text-align: center;
+}
+
+.uI h4 {
+    padding-right: 5px;
+}
+
+.web-design-p h4 {
+    padding-top: 21px;
+    font-weight: 300;
+}
+
+.web-design-p p {
+    padding-bottom: 65px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 12px;
+    padding-right: 4px;
+    font-weight: 300;
+    color: #b3b3b3;
+    max-width: 191px;
+    width: 100%;
+}
+
+.sec {
+    padding-right: 28px;
+}
+
+.sec-3 {
+    padding-left: 5px;
+}
+
+.sec-4 {
+    margin-left: 14px;
+}
+
+.photo-p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
+/* like  theme */
+
+.theme {
+    background-color: #4b3e34;
+    padding-bottom: 143px;
+}
+
+.like-theme h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    padding-top: 150px;
+    padding-left: 4px;
+}
+
+
+/* purchaise-button */
+
+.btn {
+    margin-top: 26px;
+    background-color: #afcd3a;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #798f20;
+    text-align: center;
+    padding: 13px 25px 10px 27px;
+}
+
+.btn a,
+.fbtn a,
+.btn-white,
+.btn-green,
+.btn-lime,
+.btn-grey {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+/* follow button */
+
+.fbtn {
+    margin-top: 26px;
+    background-color: #1bbb9d;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #1e937c;
+    text-align: center;
+    padding: 13px 38px 10px 39px;
+    margin-left: 10px;
+}
+
+
+/* portfolio */
+
+.folio h3 {
+    padding-top: 62px;
+    text-align: center;
+    padding-bottom: 19px;
+    padding-left: 5px;
+}
+
+.category {
+    padding: 0 244px;
+    padding-bottom: 44px;
+}
+
+.webD {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 5px;
+    background-color: #313337;
+    padding: 4px 14px 5px 18px;
+}
+
+.ui {
+    padding: 4px 21px 5px 25px;
+}
+
+.pro {
+    padding: 3px 22px 5px 23px;
+}
+
+.pGraphy {
+    background-color: #1bbb9d;
+    border-bottom: 2px solid #1e937c;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 7px;
+    padding: 3px 12px 5px 11px;
+}
+
+.box2 {
+    padding-top: 14px;
+    padding-bottom: 28px;
+}
+
+
+/* likes-comments-img */
+
+.two {
+    padding-left: 4px;
+}
+
+.likes {
+    padding-left: 7px;
+}
+
+.like {
+    padding-left: 11px;
+}
+
+
+/* load more - arrow */
+
+.load {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+
+.load img {
+    padding-top: 10px;
+}
+
+
+/* pricing-table */
+
+.pricing-table,
+.team {
+    background-color: #4b3e34;
+}
+
+.price h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    padding-top: 163px;
+    padding-left: 2px;
+}
+
+.price h3,
+.our-team h3 {
+    font-weight: 500;
+}
+
+.price {
+    padding-bottom: 164px;
+}
+
+
+/* our price */
+
+.ourPrice h3 {
+    padding-top: 43px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.hosting,
+.website-host {
+    font-family: 'Open sans';
+    padding-bottom: 65px;
+}
+
+
+/* website-hosting */
+
+.web-host {
+    text-align: center;
+    background-color: #313338;
+    padding-top: 35px;
+    max-width: 28%;
+    width: 100%;
+    margin-right: 72px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+.web-host h5,
+.cloud h5,
+.dedi-host h5,
+.web h5,
+.resell-cloud h5,
+.dedicated h5,
+.wbHost h5 {
+    padding-bottom: 26px;
+    font-weight: 300;
+    padding-left: 9px;
+}
+
+.green-strip {
+    background-color: #1bbb9d;
+    border-bottom: 2px solid #1e937c;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.options {
+    padding-top: 41px;
+}
+
+.options h6 {
+    padding-bottom: 21px;
+    font-weight: 400;
+}
+
+.btnn {
+    margin-top: 21px;
+    max-width: 131px;
+    width: 100%;
+    background-color: #afcd3a;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #798f20;
+    text-align: center;
+    padding: 12px 0;
+}
+
+
+/* reseller-cloud */
+
+.cloud {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding-top: 35px;
+    max-width: 28%;
+    width: 100%;
+    margin-right: 78px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+
+/* dedicated-hosting */
+
+.dedi-host {
+    text-align: center;
+    background-color: #313338;
+    padding-top: 35px;
+    max-width: 28%;
+    width: 100%;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+
+/* 4-section */
+
+
+/* sec-1 */
+
+.web {
+    max-width: 21.62%;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding-top: 41px;
+    padding-bottom: 18px;
+    border-radius: 5px;
+    margin-right: 42px;
+}
+
+.grey-strip {
+    background-color: #424242;
+    border-bottom: 2px solid #2d2d2d;
+    padding: 14px 0;
+    font-weight: 700;
+}
+
+.btn-white {
+    margin-top: 25px;
+    max-width: 131px;
+    background-color: #e4e4e4;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    border-bottom: 2px solid #c1c1c1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn-white a {
+    color: #000;
+}
+
+
+/* sec-2 */
+
+.resell-cloud {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding-top: 41px;
+    max-width: 21.62%;
+    margin-right: 43px;
+    padding-bottom: 14px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-green {
+    margin-top: 25px;
+    max-width: 131px;
+    width: 100%;
+    background-color: #73afa3;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #55857b;
+    text-align: center;
+    padding: 11px 0px 13px 5px;
+}
+
+.g-strip {
+    background-color: #73b0a4;
+    border-bottom: 2px solid #55857b;
+    padding: 14px 0;
+    font-weight: 700;
+}
+
+
+/* sec-3 */
+
+.dedicated {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding-top: 41px;
+    max-width: 21.62%;
+    width: 100%;
+    margin-right: 43px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    margin-right: 42px;
+}
+
+.btn-lime {
+    margin-top: 25px;
+    max-width: 131px;
+    width: 100%;
+    background-color: #b5c37f;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #8d9765;
+    text-align: center;
+    padding: 10px 0px 10px 4px;
+}
+
+.lime-strip {
+    background-color: #b5c37f;
+    border-bottom: 2px solid #8d9765;
+    padding: 14px 0;
+    font-weight: 700;
+}
+
+
+/* sec-4 */
+
+.wbHost {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    padding-top: 41px;
+    max-width: 21.62%;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+.white-strip {
+    background-color: #e4e4e4;
+    border-bottom: 2px solid #a7a7a7;
+    padding: 14px 0;
+    font-weight: 700;
+}
+
+.white-strip a {
+    color: #74b0a4;
+}
+
+.btn-grey {
+    margin-top: 25px;
+    max-width: 131px;
+    width: 100%;
+    background-color: #414141;
+    border: 0;
+    border-radius: 4px;
+    border-bottom: 2px solid #2d2d2d;
+    text-align: center;
+    padding: 10px 0px 10px 4px;
+}
+
+
+/* clients */
+
+.clients {
+    background-color: #27292e;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+.clients h4 {
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 3px;
+}
+
+.middle p {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #47484b;
+    padding-top: 36px;
+    padding-left: 2px;
+    max-width: 398px;
+    width: 100%;
+}
+
+.hashtag a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #b0cd3b;
+    padding-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 6px;
+}
+
+fieldset {
+    border: 0;
+    border-top: 2px solid #424242;
+    margin: 0 auto;
+}
+
+.clients fieldset legend {
+    padding: 0 46px;
+}
+
+.clients .start {
+    padding: 44px 0 0 124px;
+}
+
+.clients .end {
+    padding: 44px 122px 0 0;
+}
+
+
+/* our team */
+
+.our-team h2 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    padding-top: 163px;
+}
+
+.our-team {
+    padding-bottom: 167px;
+}
+
+
+/* About-us */
+
+.about-us {
+    padding-bottom: 94px;
+}
+
+.about h3 {
+    text-align: center;
+    padding: 55px 0 52px 2px;
+}
+
+
+/* persons */
+
+.developer,
+.fire,
+.bigB {
+    max-width: 23.85%;
+    width: 100%;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.des {
+    max-width: 23.85%;
+    width: 100%;
+    text-align: center;
+}
+
+.developer .content h5,
+.fire .content h5,
+.bigB .content h5,
+.des .content h5 {
+    padding-top: 26px;
+    padding-left: 4px;
+}
+
+.developer .content h6,
+.fire .content h6,
+.bigB .content h6,
+.des .content h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.developer .content p,
+.fire .content p,
+.bigB .content p,
+.des .content p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 11px;
+    color: #adadad;
+    font-family: Arial;
+    padding-left: 4px;
+}
+
+
+/* our skills */
+
+.ourSkill {
+    text-align: center;
+}
+
+.ourSkill h5 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.ourSkill fieldset legend {
+    padding: 0 34px;
+}
+
+.percentage {
+    padding-top: 41px;
+}
+
+.skills {
+    padding-bottom: 80px;
+}
+
+.w20 {
+    max-width: 20%;
+    width: 100%;
+    padding-left: 2px;
+}
+
+.pl {
+    padding-left: 10px;
+}
+
+.pleft {
+    padding-left: 5px;
+}
+
+
+/* 6000 px */
+
+.looked,
+.connect {
+    background-color: #4b3e34;
+}
+
+.look-over h2 {
+    padding-top: 170px;
+    font-weight: 700;
+}
+
+.look-over h3 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-bottom: 153px;
+}
+
+
+/* form */
+
+.cUS {
+    padding: 63px 0 68px 6px;
+    text-align: center;
+}
+
+.contact {
+    padding-bottom: 97px;
+}
+
+.mail {
+    max-width: 72%;
+    width: 100%;
+}
+
+.mail h5,
+.info h5 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.sub {
+    padding: 4px 2px 0px 0;
+    max-width: 105px;
+    width: 100%;
+    background-color: #1bbb9d;
+    text-align: center;
+    border-bottom: 2px solid #1f937d;
+    font-size: 14px;
+    line-height: 20px;
+    height: 35px;
+    margin: 20px 0 0 3px;
+}
+
+::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub input[type=submit] {
+    background-color: #1bbb9d;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.name {
+    padding-right: 17px;
+    padding-bottom: 18px;
+}
+
+.name input[type=text] {
+    padding: 16px 0px 10px 15px;
+}
+
+.gmail input[type=email] {
+    padding: 16px 0px 10px 21px;
+}
+
+textarea {
+    padding: 5px 0 0 15px;
+    height: 138px;
+}
+
+
+/* more info */
+
+.info {
+    max-width: 27%;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.address {
+    color: #989898;
+    padding-top: 19px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.p1 {
+    line-height: 20px;
+}
+
+.p2 {
+    padding-top: 6px;
+    line-height: 30px;
+}
+
+.p3 {
+    line-height: 30px;
+}
+
+.p4 {
+    padding-top: 18px;
+    line-height: 27px;
+}
+
+.p5,
+.p6 {
+    line-height: 24px;
+}
+
+.info .sub {
+    padding: 8px 0;
+    background-color: #1bbb9d;
+    text-align: center;
+    border-bottom: 2px solid #1f937d;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 17px 0 0 0;
+}
+
+
+/* connect with us */
+
+.with-us h2 {
+    padding-top: 153px;
+    font-weight: 500;
+    margin-left: -3px;
+}
+
+.with-us h3 {
+    padding-top: 16px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.id {
+    padding-top: 17px;
+    padding-bottom: 107px;
+}
+
+.pt {
+    padding-top: 7px;
+}
+
+.github {
+    padding-left: 4px;
+    /* height: 40px;
+    width: 40px;
+    background-color: #212327;
+    border-radius: 20px; */
+}
+
+.flicker,
+.vimeo,
+.facebook,
+.tumblr,
+.google {
+    padding-left: 27px;
+}
+
+.twitter {
+    padding-left: 30px;
+}
+
+.pinterest {
+    padding-left: 23px;
+}
+
+
+/* Recent tweets */
+
+.tweets {
+    background-color: #27292e;
+    padding-bottom: 63px;
+}
+
+.recent-tweets h5 {
+    margin-left: -3px;
+}
+
+.recent-tweets hr,
+.recent-posts hr,
+.photo-stream hr {
+    margin: 0 auto;
+}
+
+.photo-stream h5 {
+    padding-left: 63px;
+}
+
+.recent-tweets h5,
+.recent-posts h5 {
+    padding-top: 54px;
+    font-size: 18px;
+    line-height: 50px;
+    border-bottom: 2px solid #414141;
+}
+
+.photo-stream h5 {
+    padding-top: 54px;
+    font-size: 18px;
+    line-height: 50px;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.recent-tweets {
+    max-width: 35%;
+    width: 100%;
+}
+
+.green-twitter h6,
+.gTweet h6,
+.posts h6 {
+    padding-top: 25px;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5a5b5d;
+    display: inline-block;
+}
+
+.green-twitter p,
+.gTweet p {
+    padding-top: 16px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5a5b5d;
+    padding-left: 3px;
+    margin: 0;
+}
+
+.green-twitter p {
+    max-width: 260px;
+    width: 100%;
+}
+
+.gTweet p {
+    max-width: 280px;
+    width: 100%;
+}
+
+.green-twitter p a {
+    text-decoration: underline;
+    color: #1bbc9d;
+}
+
+.recent-posts {
+    max-width: 30%;
+    width: 100%;
+    /* margin-left: 67px; */
+}
+
+.posts p {
+    padding-top: 16px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5a5b5d;
+    padding-left: 7px;
+    max-width: 265px;
+    width: 100%;
+    margin: 0;
+}
+
+.posts-2 h6 {
+    padding-top: 14px;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5a5b5d;
+    display: inline-block;
+}
+
+.posts-2 p {
+    padding-top: 16px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5a5b5d;
+    padding-left: 7px;
+}
+
+
+/* photo-stream */
+
+.photo-stream {
+    max-width: 35%;
+    width: 100%;
+    /* margin-left: 75px; */
+}
+
+.line-1 {
+    padding-top: 10px;
+    padding-left: 69px;
+}
+
+.l1-img-3 {
+    padding-left: 6px;
+}
+
+.line-3 {
+    padding-top: 10px;
+    padding-left: 56px;
+}
+
+.l3-img-1 {
+    padding-left: 11px;
+}
+
+.l3-img-2 {
+    padding-left: 4px;
+}
+
+
+/* footer */
+
+.bottom {
+    background-color: #212327;
+    padding-top: 50px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.flogo {
+    padding-bottom: 51px;
+    display: inline-block;
+}
+
+.unm a {
+    color: #989898;
+    padding-left: 29px;
+}
+
+.unm ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+.unm li {
+    float: left;
+}
+
+
+/* Responsive design */
+
+@media (max-width:1180px) {
+    .container {
+        max-width: 920px;
+    }
+
+    h1,
+    .like-theme h2,
+    .price h2,
+    .our-team h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    h2,
+    .heading h2,
+    .price h3,
+    .our-team h3,
+    .with-us h3,
+    .with-us h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .look-over h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .photo-stream h5,
+    .recent-tweets h5,
+    .recent-posts h5 {
+        padding-top: 54px;
+        font-size: 16px;
+        line-height: 30px;
+        border-bottom: 2px solid #414141
+    }
+
+    .welcome {
+        padding: 162px 0;
+    }
+
+    .btn {
+        padding: 10px 18px 8px 20px;
+    }
+
+    .fbtn {
+        padding: 9px 31px 8px 32px;
+    }
+
+    .btn a,
+    .fbtn a {
+        font-size: 16px;
+    }
+
+    .theme,
+    .price,
+    .our-team,
+    .look-over h3 {
+        padding-bottom: 100px;
+    }
+
+    .like-theme h2,
+    .price h2,
+    .our-team h2,
+    .look-over h2,
+    .with-us h2 {
+        padding-top: 100px;
+    }
+
+    .category {
+        padding: 0 200px 44px;
+    }
+
+    .cloud,
+    .web-host {
+        margin-right: 55px;
+    }
+
+    .web,
+    .resell-cloud,
+    .dedicated {
+        margin-right: 25px;
+    }
+
+    .hosting,
+    .website-host {
+        padding-left: 30px;
+    }
+
+    .line-1 {
+        padding-left: 30px;
+    }
+
+    .line-3 {
+        padding-left: 20px;
+    }
+
+    .photo-stream {
+        padding-right: 30px;
+    }
+
+    .recent-tweets {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .nav a {
+        float: left;
+        padding: 42px 0 20px 32px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .category {
+        padding: 0 180px 44px;
+    }
+
+    .welcome {
+        padding: 150px 0;
+        background-position: right;
+    }
+
+    .pro,
+    .ui,
+    .webD {
+        padding: 3px 7px 5px 7px;
+        font-size: 12px;
+    }
+
+    .pGraphy {
+        font-size: 12px;
+        padding: 3px 7px 2px 7px;
+    }
+
+    .box1,
+    .box2 {
+        padding-left: 0;
+        max-width: 165px;
+    }
+
+    .box1 img,
+    .box2 img {
+        max-width: 150px;
+    }
+
+    .cloud,
+    .web-host {
+        margin-right: 40px;
+    }
+
+    h1,
+    .like-theme h2,
+    .price h2,
+    .our-team h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    h3,
+    .look-over h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    h5,
+    h6 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .btn-green a,
+    .btn-grey a,
+    .btn-lime a,
+    .btn-white a {
+        font-size: 16px;
+    }
+
+    .clients .end {
+        padding: 40px 130px 0 5px;
+    }
+
+    .clients .start {
+        padding: 36px 5px 0 130px;
+    }
+
+    .developer .content h6,
+    .fire .content h6,
+    .bigB .content h6,
+    .des .content h6 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .bimg img,
+    .dimg img,
+    .fimg img {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .developer,
+    .fire,
+    .bigB {
+        margin-right: 0;
+    }
+
+    .w20 {
+        max-width: 130px;
+    }
+
+    .cUS {
+        padding: 60px 0 60px 6px;
+    }
+
+    .mail,
+    .info {
+        max-width: 50%;
+    }
+
+    .recent-posts,
+    .recent-tweets,
+    .photo-stream {
+        max-width: 33%;
+    }
+
+    .photo-stream {
+        text-align: center;
+    }
+
+    .line-1 img,
+    .line-3 img {
+        padding-left: 0;
+    }
+
+    .line-3 {
+        padding-left: 34px;
+    }
+
+    .line-1,
+    .line-3 {
+        padding-top: 5px;
+    }
+
+    .bottom {
+        padding-top: 35px;
+        font-size: 14px;
+    }
+
+    body>footer>div>div>div:nth-child(2)>ul>li:nth-child(3) a {
+        padding-right: 65px;
+    }
+
+    .mail h5, .info h5, .address {
+        font-size: 14px;
+    }
+
+    .info .sub {
+        padding: 6px 0;
+    }
+
+    .sub {
+        padding-top: 5px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .nav {
+        display: none;
+        float: none;
+        width: 100%;
+    }
+
+    .nav li {
+        float: none;
+        padding: 15px 0;
+    }
+
+    .nav li a {
+        float: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    label.menuNav {
+        float: right;
+        font-weight: 700;
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background: black;
+        opacity: 0.8;
+        top: 0;
+        height: 100%;
+        padding: 15px 0;
+        transform: translate(-100%, 0);
+        display: block;
+        transition: all ease 0.4s;
+    }
+
+    label i {
+        color: #b0cd3b;
+        padding-top: 40px;
+        padding-right: 10px;
+        font-size: 18px;
+    }
+
+    input[name='menu']:checked~.container .nav {
+        transform: translate(0, 0);
+    }
+    .nav li a:hover{
+        color: #b0cd3b;
+    }
+    .logo img, .flogo img {
+        max-width: 100px;
+        width: 100%;
+    }
+
+    h1,
+    .like-theme h2,
+    .price h2,
+    .our-team h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    h2,
+    .heading h2,
+    .price h3,
+    .our-team h3,
+    .with-us h3,
+    .with-us h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    h3,
+    .look-over h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    h4, .clients h4 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .clients h4 {
+        padding: 0;
+    }
+
+    h5,
+    .photo-stream h5, .recent-tweets h5, .recent-posts h5,
+    h6, .developer .content h6, .fire .content h6, .bigB .content h6, .des .content h6 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .posts p, .posts-2 p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .bottom {
+        font-size: 10px;
+    }
+
+    .mail h5, .info h5, .address, .load, .ourSkill h5 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .welcome {
+        padding: 100px 0;
+    }
+
+    .sec-1 {
+        max-width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .services{
+        padding-bottom: 35px;
+    }
+    .web-design-p p {
+        padding-bottom: 10px;
+    }
+
+    .web-design-p {
+        padding-bottom: 16px;
+    }
+
+    .like-theme h2, .price h2, .our-team h2, .look-over h2, .with-us h2 {
+        padding-top: 70px;
+    }
+
+    .theme, .price, .our-team, .look-over h3 {
+        padding-bottom: 80px;
+    }
+
+    .web-design-img img {
+        max-width: 75px;
+    }
+
+    .sec-4 {
+        margin: 0 auto;
+    }
+
+    .btn {
+        padding: 5px 9px;
+    }
+
+    .fbtn {
+        padding: 5px 18px;
+    }
+
+    .btn a, .fbtn a, .btnn a, .btn-green a, .btn-grey a, .btn-lime a, .btn-white a {
+        font-size: 12px;
+    }
+
+    .folio h3 {
+        padding-top: 50px;
+    }
+
+    .category {
+        padding: 0 0 44px 52px;
+    }
+
+    .box1 img, .box2 img {
+        max-width: 100px;
+    }
+
+    .load img {
+        max-width: 20px;
+        padding-top: 0;
+    }
+
+    .cloud, .web-host, .dedi-host, .web, .resell-cloud, .dedicated, .wbHost {
+        margin: 0 0 12px;
+        max-width: 175px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .options {
+        padding-top: 20px;
+    }
+
+    .btnn, .btn-green, .btn-grey, .btn-lime, .btn-white {
+        max-width: 100px;
+        margin-top: 10px;
+        padding: 5px 0;
+    }
+
+    .hosting, .website-host {
+        padding-left: 0;
+    }
+
+    .our-price, .price, .folio, .theme, .services, .welcome, .looked, .connect, .tweets, .bottom {
+        margin-top: -1px;
+    }
+
+    .hosting {
+        padding-bottom: 0;
+    }
+
+    .clients {
+        padding: 15px 0 35px;
+        margin-top: -1px;
+    }
+
+    .clients fieldset legend {
+        padding: 0 12px;
+    }
+
+    .clients .start {
+        padding: 36px 0px 0 82px;
+    }
+
+    .clients .end {
+        padding: 36px 82px 0 0;
+    }
+
+    .middle p, .hashtag a {
+        font-size: 11px;
+    }
+
+    .developer, .fire, .bigB, .des {
+        max-width: 50%;
+    }
+
+    .bimg img, .dimg img, .fimg img {
+        max-width: 150px;
+    }
+
+    .web-host h5, .cloud h5, .dedi-host h5, .web h5, .resell-cloud h5, .dedicated h5, .wbHost h5 {
+        padding-bottom: 20px;
+    }
+
+    .about h3 {
+        padding: 40px 0;
+    }
+
+    .developer .content h5, .fire .content h5, .bigB .content h5, .des .content h5 {
+        padding-top: 10px;
+    }
+
+    .developer .content p, .fire .content p, .bigB .content p, .des .content p {
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 10px 0 25px;
+        max-width: 190px;
+    }
+
+    .about-us {
+        padding-bottom: 40px;
+        margin-top: -1px;
+    }
+
+    .w20 {
+        max-width: 80px;
+    }
+
+    .skills {
+        padding-bottom: 25px;
+        margin-top: -1px;
+    }
+
+    .ourSkill fieldset legend {
+        padding: 0 15px;
+    }
+
+    .cUS {
+        padding: 30px 0 35px 5px;
+    }
+
+    .mail, .info {
+        max-width: 100%;
+    }
+
+    .contact {
+        padding-bottom: 60px;
+        margin-top: -1px;
+    }
+
+    .info {
+        padding: 70px 0 0 0;
+    }
+
+    .sub, .info .sub {
+        padding-top: 5px;
+        max-width: 90px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .name, .gmail {
+        float: none;
+        width: 100%;
+    }
+
+    .name {
+        padding-right: 0;
+    }
+
+    .gmail, .msg {
+        padding-bottom: 18px;
+    }
+
+    .sub input[type=submit] {
+        font-size: 12px;
+    }
+
+    .id img {
+        max-width: 22px;
+    }
+
+    .google {
+        padding-top: 7px;
+    }
+
+    .id {
+        padding: 25px 0 70px;
+    }
+
+    .with-us h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .recent-posts, .recent-tweets, .photo-stream {
+        float: none;
+        max-width: 100%;
+        padding: 0 0 0 20px;
+    }
+
+    .photo-stream h5 {
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .line-1, .line-3 {
+        padding: 10px 0 0 0;
+    }
+
+    .recent-tweets h5, .recent-posts h5, .photo-stream h5 {
+        padding-bottom: 8px;
+    }
+
+    .green-twitter img, .gTweet img {
+        max-width: 12px;
+        height: auto;
+    }
+
+    .green-twitter p, .gTweet p {
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .bottom {
+        padding-top: 30px;
+    }
+
+    .bottom .flogo {
+        padding-bottom: 12px;
+    }
+
+    .unm a {
+        padding-left: 14px;
+    }
+
+    .unm {
+        float: none;
+        padding-bottom: 15px;
+    }
+
+    .unm li {
+        float: none;
+        display: inline-block;
+    }
+
+    .unm ul {
+        padding: 0;
+    }
+}
+
+@media (max-width:479px) {
+
+    h1,
+    .like-theme h2,
+    .price h2,
+    .our-team h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    h2,
+    .heading h2,
+    .price h3,
+    .our-team h3,
+    .with-us h3,
+    .with-us h2 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    h3,
+    .look-over h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    h4, .clients h4 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .clients h4 {
+        padding: 0;
+    }
+
+    .welcome {
+        background-position: top;
+    }
+
+    .like-theme h2, .price h2, .our-team h2, .look-over h2, .with-us h2 {
+        padding-top: 50px;
+    }
+
+    .theme, .price, .our-team, .look-over h3 {
+        padding-bottom: 50px;
+    }
+
+    .category {
+        padding-left: 4px;
+    }
+
+    .pro, .ui, .webD, .pGraphy {
+        font-size: 10px;
+    }
+
+    .box1 img, .box2 img {
+        max-width: 65px;
+    }
+
+    .cloud, .web-host, .dedi-host, .web, .resell-cloud, .dedicated, .wbHost {
+        max-width: 145px;
+    }
+
+    .website-host {
+        padding-bottom: 25px;
+    }
+
+    .clients .start {
+        padding: 33px 0px 0 60px;
+    }
+
+    .clients .end {
+        padding: 35px 60px 0 0;
+    }
+
+    .with-us h3 {
+        padding-bottom: 0;
+    }
+
+    .id {
+        padding-bottom: 40px;
+    }
+    .line-1 img, .line-3 img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    .unm a {
+        padding-left: 8px;
+        font-size: 8px;
+    }
+    .sec-1 {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .developer, .fire, .bigB, .des{
+        max-width: 100%;
+    }
+    .w20{
+        max-width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* transitions, animations,.... */
+
+
+/* navigation  */
+
+
+/* .nav a:hover{
+    color: #97c248;
+    transform: scale(1.5); 
+}
+.nav a img, .nav a{
+    transition: transform 2s;
+}
+.nav a img:hover{
+    transform: scale(1.5); 
+} */
+
+
+/* logo */
+
+
+/* .logo img:hover{
+    transform: scale(1.5) rotate(180deg);
+}
+.logo img{
+    transition: all;
+} */
+
+
+/* our services */
+
+
+/* .sec-4 img:hover {
+  transform: translate(12px);
+}
+.sec-4 img{
+    transition: transform 2s;
+} */
+
+
+/* theme buttons */
+
+
+/* .theme .btn:hover, .theme .fbtn:hover{
+    background-color: #222327;
+    transform: rotate3d(1,1,1,360deg);
+}
+
+.theme .btn, .theme .fbtn{
+    transition: transform 2s ;
+} */
+
+
+/* portfolio */
+
+
+/* .box1 img:hover, .box2 img:hover{
+    content: url(../assets/images/clean-night.png);
+}
+
+.category .webD:hover{
+    transform: translateY(10px);
+    background: #5a5b5d;
+}
+.category .webD{
+    transition: transform 2s;
+}
+.category .pGraphy:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    background: teal;
+}
+.category .pGraphy{
+    transition: transform 450ms;
+} */
+
+
+/* load more */
+
+
+/* .load img:hover{
+    transform: scale(2.0);
+}
+.load img{
+    transition: transform; 
+}*/
+
+
+/* our price */
+
+
+/* .hosting div:hover{
+    transform: scale(0.5);
+}
+.hosting div{
+    transition: transform .2s, visibility .2s ease-in;
+}
+
+.btn-white:hover{
+    background:silver;
+    transform: rotate(360deg);
+}
+.btn-green:hover{
+    background:turquoise;
+    transform: rotate(360deg);
+}
+.btn-lime:hover{
+    background: lime;
+    transform: rotate(360deg);
+}
+.btn-grey:hover{
+    background: lightsteelblue;
+    transform: rotate(360deg);
+}
+.btn-white, .btn-green, .btn-lime, .btn-grey{
+    transition: transform .5s;
+}
+
+.grey-strip:hover{
+    background:lightsteelblue;
+    transform: scale(-1.5);
+}
+.g-strip:hover{
+    background: turquoise;
+    transform: scale(-1.5);
+}
+.lime-strip:hover{
+    transform: scale(-1.5);
+    background: lime;
+}
+.white-strip:hover{
+    transform: scale(-1.5);
+    background:silver;
+}
+.grey-strip, .g-strip, .lime-strip, .white-strip{
+    transition: transform 2s;
+} */
+
+
+/* about us */
+
+
+/* .person img:hover{
+    transform: scaleY(-0.5);
+}
+.person img{
+    transition: transform 2s linear;
+} */
+
+
+/* percentage */
+
+
+/* .w20 img:hover{
+    transform: scale(2); 
+}
+.w33 img{
+   transition: transform 2s ease-in-out;
+} */
+
+
+/* social media*/
+
+
+/* .id img:hover{
+    transform: rotate(-360deg); 
+}
+.id img{
+    transition: transform .5s;
+} */
+
+
+/* recent tweet */
+
+
+/* .green-twitter p a:hover{
+    color:thistle;
+}
+
+.green-twitter img:hover{
+    transform: rotate(50deg);
+    width: 50px;
+}
+.green-twitter img{
+    transition: all;
+} */
+
+
+/* second teitter img */
+
+
+/* .gTweet img:hover{
+    transform: rotate(-50deg) scale(1.5);
+}
+.gTweet img{
+    transition: all; 
+}*/
+
+
+/* photo stream */
+
+
+/* .line-1 img:hover, .line-3 img:hover{
+    transform: rotate(180deg);
+}
+.line-1 img, .line-3 img{
+    transition: all;
+} */
+
+
+/* footer-logo */
+
+
+/* .flogo img:hover{
+    transform: skew(-30deg);
+}
+.flogo img{
+    transition: all;
+} */

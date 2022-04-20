@@ -1,0 +1,1106 @@
+/* Fonts & Icons */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+/* icons */
+@import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+/* Global Declarations */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #73879c;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+    width: 100%;
+    display: table;
+    content: '';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #506a85;
+    margin: 0;
+}
+
+h1 {
+    font-size: 78px;
+    line-height: 88px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+h3 {
+    font-size: 26px;
+    line-height: 34px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+input[name='menu'] {
+    display: none !important;
+}
+
+label.menu {
+    display: none;
+}
+
+a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #00bb9b;
+    text-decoration: none;
+}
+
+.button a {
+    font-size: 18px;
+    line-height: 33px;
+    padding: 16px 40px 14px;
+    background-color: #00bb9b;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    /* border-bottom: 2px solid #009f84; */
+    animation-name: get_in_animate;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* Header */
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-strip {
+    background-color: #f5f7f9;
+}
+
+.top-strip li {
+    display: inline-block;
+    padding: 11px 24px 11px 0;
+}
+
+.top-strip a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #506a85;
+    display: block;
+}
+
+.site-navigation {
+    padding: 23px 0;
+}
+
+.logo {
+    width: 16.66%;
+    float: left;
+    padding: 10px 0;
+}
+
+.navigation {
+    width: 66.64%;
+    float: left;
+}
+
+.navigation ul {
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    color: #506a85;
+    text-transform: uppercase;
+    padding: 22px 22px;
+    display: block;
+
+}
+
+.social-media {
+    width: 16.66%;
+    float: left;
+    text-align: right;
+    padding: 18px 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+}
+
+.social-media ul li a {
+    display: inline-block;
+    font-size: 0;
+    padding: 8px;
+}
+
+/* Banner */
+.banner-section {
+    text-align: center;
+    background: #506a85;
+    color: #a3b1bf;
+    font-size: 24px;
+    padding: 287px 0;
+}
+
+.content h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner-section .button {
+    padding-top: 32px;
+}
+
+/*after-banner */
+.after-banner, .latestwork-section {
+    padding: 130px 0px;
+    text-align: center;
+}
+
+.after-banner p {
+    margin: 0px;
+    font-size: 22px;
+    padding: 0 350px;
+}
+
+
+.after-banner h2 {
+    padding-bottom: 30px;
+}
+
+/* passion creativity quality*/
+
+.container1 {
+    padding-right: 30px;
+    width: 33.33%;
+    float: left;
+}
+
+.heart-logo, .star-logo, .lamp-logo {
+    width: 20%;
+    float: left;
+}
+
+.star-logo img {
+    padding-left: 6px;
+    animation-name: startanimate;
+    animation-duration: 4s;
+}
+
+.lamp-logo img {
+    padding-left: 15px;
+}
+
+.quality, .passion, .creativity {
+    width: 80%;
+    float: right;
+    padding-left: 15px
+}
+
+.quality p, .passion p, .creativity p {
+    margin: 0 auto;
+}
+
+/* Latest work */
+.latest {
+    padding-bottom: 65px;
+}
+
+.latest h2 {
+    padding-bottom: 5px;
+}
+
+.latestwork-section p {
+    font-size: 22px;
+}
+
+.latestwork-section p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.gSec1, .gSec2 {
+    height: 388px;
+    width: 555px;
+    padding: 85px 30px 190px;
+    background-color: #00bb9b;
+    border-color: #e5e9ed;
+}
+
+.greenSec {
+    width: 50%;
+    float: left;
+    border-color: #e5e9ed;
+    padding: 4px;
+}
+
+.greenSec p {
+    font-size: 14px;
+    line-height: 0;
+    padding-bottom: 70px;
+}
+
+.greenSec h4 {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.gSec2 {
+    float: left;
+}
+
+
+
+/* four green section */
+.part-one, .p1 {
+    float: left;
+    /* width: 25%; */
+    margin-bottom: 26px;
+    border: 1px solid #00bb9b;
+    background-color: #00bb9b;
+    padding: 178px 0 0 280px;
+    margin-right: 6px;
+}
+
+
+/* circle */
+.dots {
+    height: 40px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.dots img {
+    padding-left: 5px;
+}
+
+/* get in touch */
+.get-in-touch {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 130px;
+}
+
+.get-in-touch p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.getIn {
+    padding-bottom: 50px;
+}
+
+.get-in-touch h2 {
+    color: #506a85;
+    padding-bottom: 18px;
+}
+
+.touch {
+    line-height: 25px;
+    padding: 8px 27px 11px;
+    background-color: #00bb9b;
+    display: inline-block;
+    border-radius: 3px;
+    border-bottom: 2px solid #009f84;
+    margin-bottom: 25px;
+}
+
+.touch a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+
+/* footer */
+
+.who-we-are {
+    display: inline-block;
+}
+
+.latest-works, .free-updates, .contact-us, .who-we-are {
+    width: 25%;
+    float: left;
+}
+
+.email input[type='email'] {
+    background-color: #707e8c;
+    border-style: none;
+}
+
+.email {
+    background-color: #707e8c;
+    color: #818d99;
+    border-radius: 3px;
+    padding: 8px 4px;
+    width: 275px;
+}
+
+.who-we-are p {
+    padding-top: 45px;
+    color: #a3b1bf;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.contact-us p, .free-updates p {
+    margin-top: 1px;
+    font-size: 14px;
+    color: #a3b1bf;
+}
+
+.contact-us li {
+    margin-left: -35px;
+    font-size: 14px;
+    color: #a3b1bf;
+    font-weight: normal;
+}
+
+footer h6 {
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.who-we-are b {
+    font-size: 15px;
+    color: #a3b1bf;
+    float: left;
+    padding-right: 12px;
+    padding-top: 2px;
+}
+
+.sq1 {
+    display: inline-block;
+    padding-left: 3px;
+}
+
+footer {
+    background-color: #2f3f51;
+}
+
+.bottom {
+    padding-bottom: 70px;
+}
+
+.address li, .footer-2 li {
+    list-style-type: none;
+}
+
+.address a {
+    color: #a3b1bf;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+footer input[type='submit'] {
+    padding: 5px 2px;
+    background-color: #00bb9b;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: 0;
+    border-bottom: 2px solid #009f84;
+    color: #fff;
+}
+
+::placeholder {
+    color: #a3b1bf;
+}
+
+/* e5e9ed */
+footer a {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-2 {
+    background-color: #273545;
+    color: #707e8c;
+    height: 80px;
+}
+
+.footer-2 li, .footer-2 p {
+
+    float: left;
+    padding: 5px;
+}
+
+.list {
+    float: right;
+    /* margin-left: 456px; */
+    /* padding-left: 490px; */
+}
+
+.list a {
+    color: #707e8c;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* .toparrow{
+    margin-top: 20px;
+    float: left;
+    vertical-align: middle;
+    padding-left: 325px;
+} */
+
+/* Typography 
+h1 - 78/88 , Lato, 900, #506a85
+h2 - 44/54, Lato, 700, #506a85
+h3 - 26/34, lato, 700, #506a85
+h4 - 20/26, lato, 700, #506a85
+h5 - 18/24, lato, 700, #506a85
+h6 - 16/22, Lato, 700, #506a85
+*/
+
+
+
+
+/* Font Families
+---------------
+Hairline/Thin - 100
+Extra light - 200
+Light - 300
+Regular - 400
+Medium - 500
+Semibold - 600
+Bold - 700
+Extra Bold - 800
+Black - 900
+*/
+
+/*
+1920, 1600, 1440, 1366, 1280, 1024, 992,768
+960, 640, 560, 480, 414, 375
+
+*/
+
+
+/* Responsive Media Queries 
+----------------------------*/
+
+@media (max-width:1180px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .email input[type='email'] {
+        background-color: #707e8c;
+        border-style: none;
+        max-width: 155px;
+        padding: 10px 4px;
+    }
+
+    .social-media {
+        padding: 12px 0;
+    }
+
+    .social-media ul li a {
+        padding: 5px;
+    }
+
+    .navigation ul li a {
+        padding: 12px 12px;
+    }
+
+    h1 {
+        font-size: 46px;
+        line-height: 88px;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 54px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .banner-section {
+        padding: 180px 0;
+    }
+
+    .after-banner p {
+        padding: 0 150px;
+    }
+
+    .gSec1, .gSec2 {
+        height: auto;
+        width: 100%;
+    }
+
+    .passion p, .quality p, .creativity p {
+        padding-top: 8px;
+    }
+
+    .part-one {
+        padding: 178px 0 0 240px;
+    }
+
+    .free-updates p {
+        padding-left: 4px;
+    }
+
+    .get-in-touch {
+        padding-bottom: 75px;
+    }
+
+    .email {
+        width: 254px;
+    }
+
+    .sq1 img {
+        max-width: 100px;
+        width: 100%;
+        height: 85px;
+    }
+
+}
+
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 900px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 33px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    .banner-section {
+        padding: 190px 0
+    }
+
+    .after-banner p {
+        padding: 0 135px;
+    }
+
+    .social-media ul li a {
+        padding: 2px;
+    }
+
+    .container1 {
+        padding: 0;
+    }
+
+    .part-one {
+        padding: 178px 0 0 215px;
+    }
+
+    .free-updates p {
+        padding-left: 4px;
+    }
+
+    .email {
+        width: 250px;
+    }
+
+    .who-we-are, .latest-works, .contact-us, .free-updates {
+        width: 50%;
+    }
+
+    .latest-works, .free-updates {
+        padding: 0 75px;
+    }
+
+    .get-in-touch {
+        padding-bottom: 80px;
+    }
+
+}
+
+
+@media (max-width:992px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .logo {
+        max-width: 23.66%;
+        width: 100%;
+    }
+
+    .navigation {
+        max-width: 56.64%;
+        width: 100%;
+    }
+
+    .navigation ul li a {
+        padding: 12px 3px;
+        font-size: 10px;
+    }
+
+    .social-media {
+        width: 17.66%;
+    }
+
+    h1 {
+        font-size: 36px;
+        word-spacing: 5px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .banner-section {
+        padding: 165px 0
+    }
+
+    .banner-section p {
+        font-size: 20px;
+    }
+
+    .after-banner p {
+        padding: 0 85px;
+        font-size: 18px;
+    }
+
+    .button a {
+        padding: 12px 30px 10px;
+    }
+
+    .container1 {
+        padding: 0 0 15px;
+        width: auto;
+    }
+
+    .latestwork-section {
+        padding: 90px 0;
+    }
+
+    .passion, .creativity, .quality {
+        width: calc(100% - 60px);
+    }
+
+    .passion h3, .quality h3 {
+        padding-top: 8px;
+    }
+
+    .heart-logo, .lamp-logo, .star-logo {
+        max-width: 60px;
+        padding-top: 8px;
+    }
+
+    .part-one {
+        margin-bottom: 10px;
+        padding: 165px 0 0 165px;
+    }
+
+    .latest-works, .free-updates {
+        padding: 0px 65px;
+    }
+
+    .dots {
+        padding-bottom: 130px;
+    }
+
+    .getIn {
+        padding-bottom: 35px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .logo img {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .social-media {
+        max-width: 225px;
+        width: 100%;
+        margin: 0 auto;
+        float: right;
+    }
+
+    .social-media ul li a {
+        padding: 0 10px;
+    }
+
+    .site-navigation {
+        padding: 12px 0;
+    }
+
+    .banner-section {
+        padding: 70px 0;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4, .after-banner p {
+        font-size: 14px;
+    }
+
+    .banner-section p, .button a {
+        font-size: 16px;
+    }
+
+    label.menu i {
+        float: right;
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .navigation {
+        float: none;
+        width: 100%;
+        display: none;
+    }
+
+    .navigation ul li {
+        text-align: center;
+        display: block;
+    }
+
+    label.menu {
+        float: right;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #506a85 !important;
+        display: block;
+    }
+
+    .navigation {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background:#506a85;
+        opacity: 0.9;
+        top: 0;
+        height: 100%;
+        padding: 15px 0;
+        transform: translate(-100%, 0);
+        display: block;
+        transition: all ease 0.4s;
+    }
+
+    .navigation ul li a{
+        color: black ;
+        font-size: 18px;
+    }
+
+    [name="menu"]:checked~.container .navigation {
+        transform: translate(0, 0);
+    }
+
+    .navigation ul li a:hover{
+        color: #fff;
+    }
+    .passion h3, .quality h3 {
+        padding-top: 0;
+    }
+
+    .button a {
+        padding: 8px 15px 8px;
+    }
+
+    .after-banner, .latestwork-section {
+        padding: 50px 0;
+    }
+
+    .after-banner h2 {
+        padding-bottom: 10px;
+    }
+
+    .heart-logo img, .star-logo img, .lamp-logo img {
+        max-width: 40px;
+        height: auto;
+    }
+
+    .quality, .passion, .creativity, .latest h2 {
+        padding: 0;
+    }
+
+    .passion p, .quality p, .creativity p {
+        font-size: 14px;
+    }
+
+    .latest {
+        padding-bottom: 25px;
+    }
+
+    .latestwork-section p {
+        font-size: 18px;
+        margin: 0 auto;
+        line-height: 1.2;
+    }
+
+    .greenSec {
+        width: 100%;
+    }
+
+    .greenSec p {
+        padding-bottom: 50px;
+    }
+
+    .greenSec p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .greenSec p {
+        padding-bottom: 20px;
+    }
+
+    .g4 .p3, .g4 .p4 {
+        display: none;
+    }
+
+    .part-one {
+        width: 48%;
+    }
+
+    .dots {
+        padding-bottom: 80px;
+    }
+
+    .get-in-touch h2, .latest-works, .free-updates {
+        padding: 0;
+    }
+
+    .get-in-touch p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .getIn {
+        padding-bottom: 15px;
+    }
+
+    .get-in-touch {
+        padding-bottom: 40px;
+    }
+
+    .who-we-are, .latest-works, .contact-us, .free-updates {
+        width: 100%;
+    }
+
+    .who-we-are p {
+        padding: 40px 0 8px 0;
+        margin: 0 auto;
+    }
+
+    footer h6 {
+        padding-bottom: 15px;
+        padding-top: 45px;
+    }
+
+    .bottom .logo img {
+        max-width: 70px;
+        width: 100%;
+    }
+
+    .sq1 {
+        max-width: 90px;
+    }
+
+    .footer-2 p, .list {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-2 ul {
+        margin: 0 auto;
+    }
+
+    .footer-2 li {
+        padding: 4px;
+    }
+}
+
+@media (max-width:479px) {
+    .social-media {
+        max-width: 170px;
+    }
+
+    .social-media ul li a {
+        padding: 0 6px;
+    }
+
+    .logo {
+        padding-top: 12px;
+    }
+
+    .banner-section {
+        padding: 50px 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h4, .after-banner p, .touch a, .passion p, .quality p, .creativity p {
+        font-size: 12px;
+    }
+
+    .banner-section p, .button a {
+        font-size: 14px;
+    }
+
+    .button a {
+        padding: 4px 10px 4px;
+    }
+
+    .after-banner, .latestwork-section {
+        padding: 30px 0;
+    }
+
+    .after-banner h2 {
+        padding: 0;
+    }
+
+    .latestwork-section p {
+        font-size: 14px;
+    }
+
+    .greenSec h4 {
+        padding-top: 15px;
+    }
+
+    .greenSec p {
+        font-size: 12px;
+        padding-top: 0;
+    }
+
+    .dots img {
+        max-width: 14px;
+    }
+
+    .part-one {
+        margin-left: 8px;
+        padding: 120px 0 0 120px;
+        width: auto;
+    }
+
+    .dots {
+        padding-bottom: 50px;
+    }
+
+    .touch {
+        padding: 0px 14px 4px;
+        margin-bottom: 0;
+    }
+
+    .sq1 img {
+        max-width: 60px;
+        height: 60px;
+    }
+
+    .list a {
+        font-size: 10px;
+    }
+
+    .footer-2 li {
+        padding: 2px;
+    }
+}
+
+@keyframes startanimate{
+    25% {width: 30px;}
+    50% {width: 50px;}
+    100% {width: 70px;}
+}
+
+@keyframes get_in_animate{
+    5% {background-color: teal;}
+    25% {background-color: rebeccapurple;}
+    50% {background-color: tan;}
+    75% {background-color: #506a85;}
+    100% {background-color:yellowgreen}
+}
+

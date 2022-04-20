@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lightslategrey;
+            color: black;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:992px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        /* 1 */
+        /* On screens that are 992px wide or less, the background color is blue */
+        /* @media screen and (max-width: 992px) {
+            body {
+                background-color: skyblue;
+                color: black;
+            }
+        } */
+
+        /* On screens that are 600px wide or less, the background color is lightslategray */
+        /* @media screen and (max-width: 600px) {
+            body {
+                background-color: lightslategray;
+                color: white;
+            }
+        } */
+
+
+        /* 2 */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+            background-color: aliceblue;
+        }
+
+        .row:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width:992px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        /* 3,4 */
+        /* .example{
+            background-color: bisque;
+            padding: 20px;
+        }
+        @media screen and (max-width:992px) {
+            .example{
+                display: none;
+            }
+        }
+        @media screen and (min-width:992px) {
+            .example{
+                font-size: 20px;
+            }
+        }
+        @media screen and (max-width:992px) {
+            .example{
+                font-size: 80px;
+            }
+        } */
+
+        /* 5 */
+        /* @media screen and (orientation:portrait) {
+            body{
+                background-color: lightpink;
+                color: azure;
+            }
+        } */
+
+        /* 6 */
+        /* @media screen and (max-width:900) and (min-width:600px), (min-width:1100px) {
+            .example {
+                font-size: 50px;
+                padding: 50px;
+                border: 8px solid black;
+                background-color: lightgoldenrodyellow;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+
+    <h1>Resize the browser window to see the effect!</h1>
+    <!-- 1 -->
+    <!-- <p>By default, the background color of the document is "tan". If the screen size is 992px or less, the color will change to "blue". If it is 600px or less, it will change to "olive".</p> -->
+
+    <div class="topnav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+
+    <!-- 2 -->
+    <div class="row">
+        <div class="column">
+            <h1>Heading-1</h1>
+            <p>Some text..</p>
+        </div>
+        <div class="column">
+            <h1>Heading-2</h1>
+            <p>Some text..</p>
+        </div>
+        <div class="column">
+            <h1>Heading-3</h1>
+            <p>Some text..</p>
+        </div>
+        <div class="column">
+            <h1>Heading-4</h1>
+            <p>Some text..</p>
+        </div>
+    </div>
+
+    <!-- 3, 4 -->
+    <!-- <div class="example">Example DIV.</div> -->
+
+    <!-- 5,6 -->
+    <!-- <div class="example">Example DIV.</div>
+    <p>When the browser's width is 600px wide or less, hide the div element. Resize the browser window to see the
+        effect.</p> -->
+</body>
+
+</html>

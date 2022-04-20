@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+        /* icons */
+        @import url('https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+        /* Golbal declaration */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans';
+        }
+
+        .clearfix:before,
+        .clearfix:after {
+            content: '';
+            width: 100%;
+            display: table;
+        }
+
+        .container {
+            max-width: 1170px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 128px;
+            line-height: 154px;
+            font-family: 'Bebas Neue';
+            font-weight: 300;
+        }
+
+        h2 {
+            font-size: 56px;
+            line-height: 67px;
+            font-weight: 300;
+            font-family: 'Bebas Neue';
+        }
+
+        h3 {
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+        }
+
+        h4 {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 600;
+        }
+
+        h5 {
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+        }
+
+        h6 {
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 700;
+        }
+
+        p,
+        ul {
+            margin: 0 auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .centered {
+            margin: 0 auto;
+        }
+
+        .w25 {
+            width: 25%;
+        }
+
+        .w33 {
+            width: 33.33%;
+        }
+
+        .w50 {
+            width: 50%;
+        }
+
+        .w66 {
+            width: 66.66%;
+        }
+
+        .w75 {
+            width: 75%;
+        }
+
+        .w100 {
+            width: 100%;
+        }
+
+        .pl5 {
+            padding-left: 5px;
+        }
+
+        .pl10 {
+            padding-left: 10px;
+        }
+
+        .pl15 {
+            padding-left: 15px;
+        }
+
+        .pl20 {
+            padding-left: 20px;
+        }
+
+        .pl25 {
+            padding-left: 25px;
+        }
+
+        .pl30 {
+            padding-left: 30px;
+        }
+
+        .pr30 {
+            padding-right: 30px;
+        }
+
+        .ls h4 {
+            padding-top: 10px;
+            letter-spacing: -0.2px;
+        }
+
+        /* header */
+        .top {
+            background-color: #2c2b2a;
+            width: 100%;
+        }
+
+        .logo {
+            display: inline-block;
+            padding: 30px 0;
+        }
+
+        /* navigation */
+        .nav {
+            padding-top: 34px;
+        }
+
+        .nav ul {
+            list-style-type: none;
+        }
+
+        .nav a {
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 700;
+            color: #fff;
+            border: 1px solid transparent;
+            padding: 6px 10px;
+            margin-left: 6px;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        body>header>div>div>div:nth-child(2)>ul>li:last-child a {
+            margin-right: -8px;
+        }
+
+        /* Hover*/
+        body>header>div>div>div:nth-child(2)>ul>li>a:hover {
+            color: #c59966;
+            border: 1px solid #fff;
+            padding: 6px 10px;
+            margin-left: 6px;
+        }
+
+        body>header>div>div>div:nth-child(2)>ul>li:last-child a:hover {
+            margin-right: -8px;
+        }
+
+        /* banner */
+        .banner {
+            background-color: #2c2b2a;
+            padding-top: 177px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        .designing {
+            /* width: 35%; */
+            text-align: center;
+        }
+
+        .designing .line {
+            /* width: 170px; */
+            border: 2px solid #c59966;
+            position: absolute;
+            bottom: 58.4%;
+            left: 45.4%;
+            padding: 0 0 0 166px;
+        }
+
+        .designing h2 {
+            font-size: 128px;
+            line-height: 154px;
+        }
+
+        .designing h4 {
+            padding-top: 7px;
+        }
+
+        .arrow {
+            padding: 171px 0 47px;
+            /* width: 38px; */
+        }
+
+        .arrow a {
+            display: inline-block;
+            color: #c59966;
+            font-size: 22px;
+            border: 2px solid #fff;
+            padding: 8px 11px;
+        }
+
+        /* about-us */
+        .about {
+            padding: 90px 0 94px;
+        }
+
+        .about-us h2,
+        .workss {
+            text-align: center;
+        }
+
+        .about-us p {
+            font-size: 16px;
+            line-height: 19px;
+            padding-top: 9px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        /* beginning */
+        .beginning {
+            padding-top: 70px;
+            position: relative;
+        }
+
+        .the-begin {
+            width: 36.75%;
+            border: 1px solid #cccccc;
+            /* margin-left: 69px;
+            margin-bottom: 256px; */
+            position: relative;
+            left: 6%;
+        }
+
+        .the-begin .begin-img img {
+            padding: 31px 31px 55px;
+        }
+
+        .award .begin-img img {
+            padding: 30px 30px 56px;
+        }
+
+        .about .begin-content h3 {
+            color: #c59a6d;
+            padding-top: 29px;
+        }
+
+        .beginning .begin-content p {
+            font-size: 14px;
+            line-height: 20px;
+            /* width: 359px; */
+            margin: 0;
+            padding: 20px 26px 0 0;
+            font-weight: 400;
+            letter-spacing: 0.3px;
+        }
+
+        .award .begin-content p {
+            font-size: 14px;
+            line-height: 20px;
+            /* width: 400px; */
+            font-weight: 400;
+            padding-top: 20px;
+        }
+
+        /* new office */
+        .office {
+            margin: 0;
+            /* width: 36.75%; */
+            border: 1px solid #cccccc;
+            /* margin-left: 69px; */
+            /* margin-right: -3px; */
+            left: 6%;
+            top: 213%;
+            position: absolute;
+        }
+
+        .office-img img {
+            padding: 30px 31px 53px;
+        }
+
+        .office-content h3 {
+            color: #c59a6d;
+            padding-top: 27px;
+        }
+
+        .office-content p {
+            width: 430px;
+            letter-spacing: 0.3px;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            padding: 20px 44px 0 0;
+        }
+
+        /* timeline */
+        .timeline {
+            width: 11.88%;
+            /* padding-left: 82px; */
+            /* margin-top: -338px; */
+            top: 64%;
+            right: 38.5%;
+            position: absolute;
+        }
+
+        /* box */
+        .box {
+            margin: 0;
+            width: 8px;
+            border: 2px solid #c59a6d;
+            padding: 0 6px 5px 0;
+            background-color: #c59a6d;
+        }
+
+        /* 2006 */
+        .y06 {
+            padding-left: 24px;
+            color: #c59a6d;
+            margin-top: -17px;
+        }
+
+        /* horizontal line */
+        .hrline {
+            margin: 0;
+            width: 2px;
+            border: 1px solid #cccccc;
+            background-color: #cccccc;
+            /* padding-top: 528px; */
+            padding-top: 190px;
+            margin-left: 4px;
+        }
+
+        /* 2007 */
+        .y07 {
+            color: #c59a6d;
+            margin-top: -17px;
+            margin-left: -53px;
+        }
+
+        .box3 {
+            margin: 0;
+            width: 8px;
+            border: 2px solid #c59a6d;
+            padding-bottom: 4px;
+            padding-right: 6px;
+            background-color: #c59a6d;
+        }
+
+        /* 2008 */
+        .y08 {
+            padding-left: 22px;
+            color: #c59a6d;
+            margin-top: -15px;
+        }
+
+        .hrline1 {
+            margin: 0;
+            width: 2px;
+            border: 1px solid #cccccc;
+            background-color: #cccccc;
+            /* padding-top: 528px; */
+            padding-top: 115px;
+            margin-left: 4px;
+        }
+
+        /* button load-more */
+        .btn {
+            width: 170px;
+            background-color: #c59a6d;
+            padding: 7px 0;
+            text-align: center;
+            margin-left: -80px;
+        }
+
+        .btn a {
+            color: #fff;
+            font-size: 14px;
+            line-height: 17px;
+            font-weight: 700;
+        }
+
+        .ln {
+            /* margin-top: 100px; */
+            border: 1px solid #cccccc;
+            width: 170px;
+            top: 118%;
+            background-color: #cccccc;
+            /* margin-left: -80px; */
+            position: absolute;
+            right: 23%;
+            padding-right: 188px;
+        }
+
+        /* first award */
+        .award {
+            width: 36.75%;
+            border: 1px solid #cccccc;
+            /* margin-left: 63px; */
+            /* margin-top: -207px; */
+            position: absolute;
+            /* bottom: 8%; */
+            right: 39px;
+            top: 121%;
+        }
+
+        /* team */
+        .team{
+            padding-top: 502px;
+        }
+        .and {
+            padding-top: 89px
+        }
+
+        .and p {
+            padding-top: 11px;
+            letter-spacing: -0.2px;
+        }
+
+        .members {
+            padding-top: 70px;
+        }
+
+        .mem1 {
+            padding: 2px 0 0 200px;
+        }
+
+        .m1 {
+            /* width: 170px; */
+            border: 1px solid #cccccc;
+            padding: 9px;
+        }
+
+        .mike {
+            padding: 26px 0 0 2px;
+        }
+
+        .mike p {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 700;
+            color: #c59a6d;
+            float: left;
+        }
+
+        .mike h5 {
+            padding-left: 15px;
+            float: left;
+        }
+
+        .mem2 {
+            padding: 2px 0 0 30px;
+        }
+
+        .media {
+            padding-top: 23px;
+        }
+
+        .media i {
+            color: #777777;
+            font-size: 12px;
+        }
+
+        .media a {
+            padding-left: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="container">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="#"><img src="./TrendyLogo.png" alt="logo"></a>
+                </div>
+                <!-- navigation -->
+                <div class="nav fr">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">WORKS</a></li>
+                        <li><a href="#">PRICING</a></li>
+                        <li><a href="#">CLIENTS</a></li>
+                        <li><a href="./blog_list.html">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section>
+        <div class="banner">
+            <div class="container">
+                <div class="designing centered">
+                    <h1>We are</h1>
+                    <div class="line"></div>
+                    <h2>DESIGNING</h2>
+                    <h4>And We Are Doing It Well</h4>
+                </div>
+
+                <!-- arrow -->
+                <div class="arrow">
+                    <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about">
+            <div class="container">
+                <div class="about-us">
+                    <h2>ABOUT US</h2>
+                    <p>Duis vitae velit mollis,congue nisi dignissim,pellentesque lorem</p>
+                </div>
+
+                <!-- beginning -->
+                <div class="beginning clearfix">
+                    <div class="the-begin fl">
+                        <div class="begin-img fl">
+                            <img src="./flag.png" alt="The Beginning">
+                        </div>
+
+                        <div class="begin-content">
+                            <h3>THE BEGINNING</h3>
+                            <p>Quisque ut convallis diam, id pulvinar leo. Integer consequat vulputate orci sit amet
+                                consequat</p>
+                        </div>
+                    </div>
+
+                    <!-- new office -->
+                    <div class="off">
+                        <div class="office fl">
+                            <div class="office-img fl">
+                                <img src="./Office.png" alt="The New Office">
+                            </div>
+
+                            <div class="office-content">
+                                <h3>WE HAVE A NEW OFFICE</h3>
+                                <p>Curabitur quis pulvinar sapien, vitae vehicula orci. Curabitur scelerisque nulla ac
+                                    augue lobortis</p>
+                            </div>
+                        </div>
+
+                        <!-- timeline -->
+                        <div class="t clearfix">
+                            <div class="timeline fl">
+                                <div class="box"></div>
+                                <div class="y06">
+                                    <h3>2006</h3>
+                                </div>
+                                <div class="hrline"></div>
+                                <div class="box"></div>
+                                <div class="y07">
+                                    <h3>2007</h3>
+                                </div>
+                                <div class="hrline"></div>
+                                <div class="box3"></div>
+                                <div class="y08">
+                                    <h3>2008</h3>
+                                </div>
+                                <div class="hrline1"></div>
+                                <div class="btn">
+                                    <a href="#">LOAD MORE</a>
+                                </div>
+                                <div class="ln"></div>
+                            </div>
+                        </div>
+                        <!-- the first award -->
+                        <div class="awr clearfix">
+                            <div class="award fl">
+                                <div class="begin-img fl">
+                                    <img src="./Award.png" alt="The First Award">
+                                </div>
+
+                                <div class="begin-content">
+                                    <h3>THE FIRST AWARD</h3>
+                                    <p>Aliquam sollicitudin, neque sed facilisis bibendum, dolor sapien consectetur
+                                        nunc,
+                                        sed eleifend mauris</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- team -->
+        <div class="team">
+            <div class="container">
+                <div class="about-us and">
+                    <h2>AND THE TEAM</h2>
+                    <p>Duis vitae velit mollis, congue nisi dignissim, pellentesque lorem</p>
+                </div>
+
+                <div class="members w100 clearfix">
+                    <div class="mem1 fl">
+                        <div class="m1">
+                            <a href="#"><img src="./team.png" alt="Mike"></a>
+                        </div>
+                        <div class="mike">
+                            <p>MIKE</p>
+                            <h5>/ CFO</h5>
+                        </div>
+                        <div class="media">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mem2 fl">
+                        <div class="m1">
+                            <a href="#"><img src="./team.png" alt="Elly"></a>
+                        </div>
+                        <div class="mike">
+                            <p>ELLY</p>
+                            <h5>/ CFO</h5>
+                        </div>
+                        <div class="media">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mem2 fl">
+                        <div class="m1">
+                            <a href="#"><img src="./team.png" alt="Wall"></a>
+                        </div>
+                        <div class="mike">
+                            <p>VALL</p>
+                            <h5>/ CFO</h5>
+                        </div>
+                        <div class="media">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mem2 fl">
+                        <div class="m1">
+                            <a href="#"><img src="./team.png" alt="Didi"></a>
+                        </div>
+                        <div class="mike">
+                            <p>DIDI</p>
+                            <h5>/ CFO</h5>
+                        </div>
+                        <div class="media">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!-- 
+    .beginning {
+    padding-top: 70px;
+}
+
+.the-begin {
+    width: 36.75%;
+    border: 1px solid #cccccc;
+    margin-left: 69px;
+    margin-bottom: 256px;
+}
+
+.the-begin .begin-img img {
+    padding: 31px 31px 55px;
+}
+
+.award .begin-img img {
+    padding: 30px 30px 56px;
+}
+
+.about .begin-content h3 {
+    color: #c59a6d;
+    padding-top: 29px;
+}
+
+.beginning .begin-content p {
+    font-size: 14px;
+    line-height: 20px;
+    /* width: 359px; */
+    margin: 0;
+    padding: 20px 26px 0 0;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.award .begin-content p {
+    font-size: 14px;
+    line-height: 20px;
+    /* width: 400px; */
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+/* new office */
+.office {
+    margin: 0;
+    /* width: 36.75%; */
+    border: 1px solid #cccccc;
+    margin-left: 69px;
+    margin-right: -3px;
+}
+
+.office-img img {
+    padding: 30px 31px 53px;
+}
+
+.office-content h3 {
+    color: #c59a6d;
+    padding-top: 27px;
+}
+
+.office-content p {
+    width: 430px;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 20px 44px 0 0;
+}
+
+/* timeline */
+.timeline {
+    width: 11.88%;
+    padding-left: 82px;
+    margin-top: -338px;
+}
+
+ -->
